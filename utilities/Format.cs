@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Labs.Utility {
 
-    public class FormatUtil {
+    public class Format {
 
         public static string GetFormattedTime(double seconds, string format) {
             TimeSpan t = TimeSpan.FromSeconds(seconds);
