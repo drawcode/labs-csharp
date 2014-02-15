@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Labs.Utility {
 
-    public static class CompressUtil {
+    public static class Compress {
 
         public static string ToCompressed(this string val) {
             if (!IsStringCompressed(val)) {
